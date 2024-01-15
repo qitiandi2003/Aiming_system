@@ -1,0 +1,4 @@
+Log file created at: 2023/11/26 11:04:10
+Running on machine: NUC11
+Log line format: [IWEF]mmdd hh:mm:ss.uuuuuu threadid file:line] msg
+W1126 11:04:10.837425  4768 MVCameraBase.cpp:99] Device:(name:MV-SUA134GC#0 sn:049010410190)Lost

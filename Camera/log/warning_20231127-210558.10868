@@ -1,0 +1,11 @@
+Log file created at: 2023/11/27 21:05:58
+Running on machine: NUC11
+Log line format: [IWEF]mmdd hh:mm:ss.uuuuuu threadid file:line] msg
+W1127 21:05:58.162583 12287 MVCameraBase.cpp:99] Device:(name:MV-SUA134GC#0 sn:049010410190)Lost
+W1127 21:06:05.140172 12287 MVCameraBase.cpp:119] Device:(name:MV-SUA134GC#0 sn:049010410190)ReConnected, TolCount:1
+W1127 21:06:51.578078 12287 MVCameraBase.cpp:99] Device:(name:MV-SUA134GC#0 sn:049010410190)Lost
+W1127 21:06:57.422724 12287 MVCameraBase.cpp:119] Device:(name:MV-SUA134GC#0 sn:049010410190)ReConnected, TolCount:2
+W1127 21:17:12.681638 12287 MVCameraBase.cpp:99] Device:(name:MV-SUA134GC#0 sn:049010410190)Lost
+W1127 21:17:12.895618 12287 MVCameraBase.cpp:119] Device:(name:MV-SUA134GC#0 sn:049010410190)ReConnected, TolCount:3
+W1127 21:17:15.023481 12287 MVCameraBase.cpp:99] Device:(name:MV-SUA134GC#0 sn:049010410190)Lost
+W1127 21:17:23.054280 12287 MVCameraBase.cpp:119] Device:(name:MV-SUA134GC#0 sn:049010410190)ReConnected, TolCount:4

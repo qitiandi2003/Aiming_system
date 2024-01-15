@@ -1,0 +1,6 @@
+Log file created at: 2023/10/22 20:44:17
+Running on machine: zhanqi
+Log line format: [IWEF]mmdd hh:mm:ss.uuuuuu threadid file:line] msg
+W1022 20:44:17.157496 310608 MVCameraBase.cpp:99] Device:(name:MV-SUA134GC#0 sn:049010410182)Lost
+W1022 20:44:17.841310 310608 MVCameraBase.cpp:119] Device:(name:MV-SUA134GC#0 sn:049010410182)ReConnected, TolCount:1
+W1022 20:44:19.969707 310608 MVCameraBase.cpp:99] Device:(name:MV-SUA134GC#0 sn:049010410182)Lost

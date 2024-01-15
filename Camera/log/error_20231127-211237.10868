@@ -1,0 +1,6 @@
+Log file created at: 2023/11/27 21:12:37
+Running on machine: NUC11
+Log line format: [IWEF]mmdd hh:mm:ss.uuuuuu threadid file:line] msg
+E1127 21:12:37.567020 10868 MVCAMAPI.cpp:350] CameraInit Failed, err:-18,Version:2.1.0.37,FriendlyName:MV-SUA134GC#0,SN:049010410190
+E1127 21:17:02.856209 10868 MVCAMAPI.cpp:350] CameraInit Failed, err:-18,Version:2.1.0.37,FriendlyName:MV-SUA134GC#0,SN:049010410190
+E1127 21:27:09.603751 10868 MVCAMAPI.cpp:350] CameraInit Failed, err:-18,Version:2.1.0.37,FriendlyName:MV-SUA134GC#0,SN:049010410190

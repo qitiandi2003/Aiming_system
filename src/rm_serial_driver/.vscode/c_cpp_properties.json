@@ -1,0 +1,29 @@
+{
+  "configurations": [
+    {
+      "browse": {
+        "databaseFilename": "${default}",
+        "limitSymbolsToIncludedHeaders": false
+      },
+      "includePath": [
+        "/home/zhanqi/ros1_ws/install/robot_tf/include/**",
+        "/home/zhanqi/ros1_ws/install/rm_serial_driver/include/**",
+        "/home/zhanqi/ros1_ws/install/armor_tracker/include/**",
+        "/home/zhanqi/ros1_ws/install/armor_detector/include/**",
+        "/home/zhanqi/ros1_ws/install/auto_aim_interfaces/include/**",
+        "/opt/ros/humble/include/**",
+        "/home/zhanqi/ros1_ws/src/rm_auto_aim/armor_detector/include/**",
+        "/home/zhanqi/ros1_ws/src/rm_auto_aim/armor_tracker/include/**",
+        "/home/zhanqi/ros1_ws/src/rm_serial_driver/include/**",
+        "/home/zhanqi/ros1_ws/src/robot_tf/include/**",
+        "/usr/include/**"
+      ],
+      "name": "ROS",
+      "intelliSenseMode": "gcc-x64",
+      "compilerPath": "/usr/bin/gcc",
+      "cStandard": "gnu11",
+      "cppStandard": "c++14"
+    }
+  ],
+  "version": 4
+}

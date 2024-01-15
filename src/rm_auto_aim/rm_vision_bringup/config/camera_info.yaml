@@ -1,0 +1,82 @@
+#sentry 
+image_width: 1280
+image_height: 1024
+camera_name: mv_camera
+camera_matrix:
+  rows: 3
+  cols: 3
+  data: [1763.0924 ,    0.     ,  647.55757,
+            0.     , 1763.56085,  514.69891,
+            0.     ,    0.     ,    1.     ]
+distortion_model: plumb_bob
+distortion_coefficients:
+  rows: 1
+  cols: 5
+  data: [-0.112582, 0.192198, 0.003155, 0.001352, 0.000000]
+rectification_matrix:
+  rows: 3
+  cols: 3
+  data: [1., 0., 0.,
+         0., 1., 0.,
+         0., 0., 1.]
+projection_matrix:
+  rows: 3
+  cols: 4
+  data: [1741.3064 ,    0.     ,  648.16678,    0.     ,
+            0.     , 1747.22107,  515.68326,    0.     ,
+            0.     ,    0.     ,    1.     ,    0.     ]
+
+# image_width: 1440
+# image_height: 1080
+# camera_name: narrow_stereo
+# camera_matrix:
+#   rows: 3
+#   cols: 3
+#   data: [2482.10812,    0.     ,  759.97789,
+#             0.     , 2482.00681,  563.40884,
+#             0.     ,    0.     ,    1.     ]
+# distortion_model: plumb_bob
+# distortion_coefficients:
+#   rows: 1
+#   cols: 5
+#   data: [-0.098313, 0.187226, -0.000677, -0.000496, 0.000000]
+# rectification_matrix:
+#   rows: 3
+#   cols: 3
+#   data: [1., 0., 0.,
+#          0., 1., 0.,
+#          0., 0., 1.]
+# projection_matrix:
+#   rows: 3
+#   cols: 4
+#   data: [2463.00537,    0.     ,  759.59109,    0.     ,
+#             0.     , 2469.16577,  562.82612,    0.     ,
+#             0.     ,    0.     ,    1.     ,    0.     ]
+
+#hik ca016
+# image_width: 1440
+# image_height: 1080
+# camera_name: narrow_stereo
+# camera_matrix:
+#   rows: 3
+#   cols: 3
+#   data: [2487.59452,    0.     ,  745.2114 ,
+#             0.     , 2488.23767,  570.90099,
+#             0.     ,    0.     ,    1.     ]
+# distortion_model: plumb_bob
+# distortion_coefficients:
+#   rows: 1
+#   cols: 5
+#   data: [-0.109809, 0.202078, 0.000334, 0.000309, 0.000000]
+# rectification_matrix:
+#   rows: 3
+#   cols: 3
+#   data: [1., 0., 0.,
+#          0., 1., 0.,
+#          0., 0., 1.]
+# projection_matrix:
+#   rows: 3
+#   cols: 4
+#   data: [2466.13086,    0.     ,  745.22202,    0.     ,
+#             0.     , 2473.89331,  570.75985,    0.     ,
+#             0.     ,    0.     ,    1.     ,    0.     ]

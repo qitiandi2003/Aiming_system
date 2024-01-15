@@ -1,0 +1,11 @@
+float32 pitch_angle
+float32 yaw_angle
+float32 yaw_center
+float32 v_yaw
+bool auto_shoot
+bool enemy
+float32 distance
+float32 auto_shoot_num
+int8 type
+float32 v_x
+int8 robot_id

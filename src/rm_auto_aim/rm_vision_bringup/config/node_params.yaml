@@ -1,0 +1,138 @@
+
+/camera_node:
+  ros__parameters:
+    camera_info_url: package://rm_vision_bringup/config/camera_info.yaml
+    exposure_time: 3000
+    gain: 10.0
+    gamma: 120 #100
+    rgb_gain:
+      b: 100
+      g: 118
+      r: 144
+
+# /serial_driver:
+#   ros__parameters:
+#     timestamp_offset: 0.006
+#     device_name: /dev/serial_autoaim
+#     baud_rate: 500000
+#     flow_control: none
+#     parity: none
+#     stop_bits: "1"
+
+/armor_detector:
+  ros__parameters:
+    debug: true
+
+    detect_color: 0
+    binary_thres:  80 #80   70
+
+    light.min_ratio: 0.08
+    armor.min_light_ratio: 0.07
+
+    classifier_threshold: 0.01
+    ignore_classes: ["negative"]
+
+/armor_tracker:
+  ros__parameters:
+    target_frame: odom
+    max_armor_distance: 10.0
+
+    ekf:
+
+      # sigma2_q_xyz: 0.05
+      # sigma2_q_yaw: 0.1
+      # sigma2_q_r: 80.0
+
+      # sigma2_q_xyz: 6.5
+      # sigma2_q_yaw: 6.0
+      # sigma2_q_r: 1200.0
+
+      # sigma2_q_xyz: 1.4
+      # sigma2_q_yaw: 2.4
+      # sigma2_q_r: 80.0  #100
+
+      sigma2_q_xyz: 0.08
+      sigma2_q_yaw: 8.0
+      sigma2_q_r: 80.0
+
+      r_xyz_factor: 0.0004
+      r_yaw: 0.005
+
+      # r_xyz_factor: 0.00038
+      # r_yaw: 0.007
+
+
+      # sigma2_q_xyz: 0.06
+      # sigma2_q_yaw: 0.12
+      # sigma2_q_r: 80.0
+
+      # r_xyz_factor: 0.000355
+      # r_yaw: 0.005
+    tracker:
+      max_match_distance: 0.5
+      max_match_yaw_diff: 0.8
+
+      tracking_thres: 3
+      lost_time_thres: 0.8 #0.8
+
+# /camera_node:
+#   ros__parameters:
+#     camera_info_url: package://rm_vision_bringup/config/camera_info.yaml
+#     exposure_time: 1050 #1200
+#     gain: 12.0 #8 
+#     gamma: 70 #100
+#     rgb_gain:
+#       b: 88
+#       g: 110
+#       r: 120
+
+/serial_driver:
+  ros__parameters:
+    timestamp_offset: 0.0045
+    device_name: /dev/ttyUSB0
+    baud_rate: 115200
+    flow_control: none
+    parity: none
+    stop_bits: "1"
+
+# /armor_detector:
+#   ros__parameters:
+#     debug: true
+
+#     detect_color: 1
+#     binary_thres:  75 #80   70
+
+#     light.min_ratio: 0.1
+#     # armor.min_light_ratio: 4
+
+#     classifier_threshold: 0.8
+#     ignore_classes: ["negative"]
+
+# /armor_tracker:
+#   ros__parameters:
+#     target_frame: odom
+#     max_armor_distance: 10.0
+
+#     ekf:
+#       sigma2_q_xyz: 3.5
+#       sigma2_q_yaw: 6.0
+#       sigma2_q_r: 0.8
+#       # sigma2_q_xyz: 0.05
+#       # sigma2_q_yaw: 0.1
+#       # sigma2_q_r: 80.0
+
+#       r_xyz_factor: 0.00038 #0.00017   41  38   365  369   32
+#       r_yaw: 0.005
+#       # sigma2_q_xyz: 0.05
+#       # sigma2_q_yaw: 10.0
+#       # sigma2_q_r: 80.0
+
+#       # r_xyz_factor: 0.005
+#       # r_yaw: 0.07
+
+#     tracker:
+#       max_match_distance: 0.15
+#       max_match_yaw_diff: 0.5
+
+#       tracking_thres: 3
+#       lost_time_thres: 0.8 #0.8
